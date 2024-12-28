@@ -1,0 +1,50 @@
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+body {
+  font-family: "Bebas Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #fff;
+  letter-spacing: 1.5px;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+.user-image:hover,
+.addProfile:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 15px rgba(255, 255, 255, 0.3);
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.pixel-character h2 {
+  font-size: 45px; /* Ajusta el tamaño */
+  line-height: 1.5; /* Opcional: mejora la legibilidad */
+}
+
+.pixel-character p {
+  font-size: 30px; /* Ajusta el tamaño */
+  line-height: 1.5; /* Opcional: mejora la legibilidad */
+}
