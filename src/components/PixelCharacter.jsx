@@ -32,11 +32,13 @@ const PixelArtSection = () => {
       </div>
       <div style={styles.textContainerRight} className="pixel-character">
         <p>
-          Aquí tienes un espacio adicional para el texto que deseas mostrar en
-          el lado derecho después de la imagen. Puedes agregar cualquier
-          contenido aquí, como descripciones adicionales, información relevante
-          o mensajes especiales.
+          Não preciso te dizer o carinho que tenho por você nem mencionar o que
+          te digo todos os dias. Que a vida sempre te encontre com coisas lindas
+          e que você alcance todos os seus objetivos. Não só foi Natal, mas
+          também está prestes a ser Ano Novo e estou feliz porque você continua
+          na minha vida mais uma vez.
         </p>
+        <p> Com amor, Lu ❤️.</p>
       </div>
     </div>
   );

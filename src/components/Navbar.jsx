@@ -53,9 +53,15 @@ const styles = {
     zIndex: 1000,
   },
   logo: {
-    fontSize: "1.9rem",
+    fontSize: "2rem", // Tamaño del texto
     fontWeight: "bold",
     cursor: "pointer",
+    padding: "10px 20px", // Espaciado interno para el recuadro
+    border: "3px solid #fff", // Borde blanco
+    borderRadius: "10px", // Bordes redondeados
+    background: "#4d4d4d92", // Fondo con transparencia
+    boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.5)", // Sombra del recuadro
+    transition: "transform 0.3s ease, background-color 0.3s ease", // Animaciones
   },
   navLinks: {
     listStyle: "none",

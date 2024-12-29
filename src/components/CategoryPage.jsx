@@ -28,7 +28,7 @@ const CategoryPage = ({ category }) => {
       {
         title: "Reserva natural de pandas.",
         description:
-          "En esta reserva puedes ver pandas con nombres como Fu wa y Jing Ao. (Tiene música)",
+          "En esta reserva puedes ver pandas con nombres como Fu wa y a Jing Ao le puse Naruto. (Tiene música)",
         image:
           "https://www.airpano.com/photogallery/images_1550/246_969549.jpg",
         link: "https://www.airpano.com/360photo/china-pandas-1/",
@@ -36,7 +36,7 @@ const CategoryPage = ({ category }) => {
       {
         title: "Full Moon.",
         description:
-          "Lo más cerca que puedes estar de bajar la luna. (Tiene música)",
+          "Lo más cerca que estuve para bajarte la luna. (Tiene música)",
         image:
           "https://www.airpano.com/files/maldives-full-moon/images/image1.jpg",
         link: "https://www.airpano.com/360photo/maldives-full-moon/",
@@ -115,22 +115,35 @@ const CategoryPage = ({ category }) => {
           "https://i.pinimg.com/736x/c9/c4/06/c9c40691e4f13c7e93f91db83493d8e8.jpg",
         link: "https://touchpianist.com/",
       },
+
+      {
+        title: "Mini Juegos de monitos.",
+        description:
+          "En esta pagina tenes varios juegos con tematica de monos, te recomiendo el Monkey Mart.",
+        image:
+          "https://i.pinimg.com/736x/ca/71/f5/ca71f5df062a7d662dfee277364c6f85.jpg",
+        link: "https://poki.com/es/monos?form=MG0AV3",
+      },
     ],
 
     // Parte de Varios
 
     Varios: [
       {
-        title: "Recetas fáciles.",
-        description: "Aprende a cocinar recetas rápidas y deliciosas.",
-        image: "https://via.placeholder.com/400x200",
-        link: "https://example.com/recetas",
+        title: "Playlist.",
+        description:
+          "Esta playlist es para que las dos compartamos nuestros distintos gustos musicales, puedes escuchar las canciones que yo puse y vos ir agregando canciones tuyas.",
+        image:
+          "https://i.pinimg.com/736x/0a/4e/b7/0a4eb796b2a75eaff2e4b20d3ea6ff0b.jpg",
+        link: "https://open.spotify.com/playlist/1zttiZDeauRvCFIzeX4YlV?si=b298e1dad23544a8&pt=0717e207d6f5439b0f75e5c37d3f5a48",
       },
       {
-        title: "Lugares curiosos.",
-        description: "Explora destinos únicos y fascinantes.",
-        image: "https://via.placeholder.com/400x200",
-        link: "https://example.com/lugares-curiosos",
+        title: "Conoce a Kena, tu ahijada.",
+        description:
+          "Te regale a Kuro porque te gustan los monos, y ahora sos la madrina de una hermosa monita, porque adoptar uno es ilegal.",
+        image:
+          "https://tribubuinzoo03.akamaized.net/apadrinamiento/images/kena-foto.jpg",
+        link: "https://drive.google.com/file/d/1BasQpo4vEgVxgPzsBBQ3-R2UdS6pNab3/view?usp=sharing",
       },
     ],
   };
@@ -166,8 +179,7 @@ const CategoryPage = ({ category }) => {
       )}
       {category === "Varios" && (
         <p style={styles.description}>
-          Una colección diversa de contenido interesante, perfecto para
-          cualquier momento.
+          Pequeños regalitos, porque nunca es suficiente.
         </p>
       )}
 
